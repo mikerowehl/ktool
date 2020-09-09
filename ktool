@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+IMAGE=mikerowehl/ktool:latest
+
+docker run --rm -ti -v "${PWD}":/work $IMAGE "$@"
