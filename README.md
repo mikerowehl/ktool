@@ -2,7 +2,7 @@
 
 A Docker containerized cross-compile toolchain for building bootable images
 and operating system services. This uses the method described on the OSDev wiki
-[make an i686-elf cross compiler](https://wiki.osdev.org/GCC_Cross-Compiler).
+to [make an i686-elf cross compiler](https://wiki.osdev.org/GCC_Cross-Compiler).
 Then I also borrowed some ideas from the
 [dockcross](https://github.com/dockcross/dockcross) tools to make it a bit
 easier to run the tools from the container using a wrapper script.
@@ -21,7 +21,9 @@ as well.
 
 I have a 
 [public image up on Docker Hub](https://hub.docker.com/repository/docker/mikerowehl/ktool)
-so all you should have to do is grab the ktool script from this repo, make it
+so all you should have to do is grab 
+[the ktool script from this repo](https://github.com/mikerowehl/ktool/blob/master/ktool),
+make it
 executable, and put it somewhere in your PATH. The first time you try to run
 the script it will pull down the Docker image with the toolchain. Try running
 a version check on the gcc compiler in the container for example:

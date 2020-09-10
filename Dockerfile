@@ -38,4 +38,6 @@ RUN cd $HOME/src; \
   make install-gcc; \
   make install-target-libgcc
 
+RUN rm -rf $HOME/src
+
 WORKDIR /work
