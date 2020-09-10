@@ -20,7 +20,7 @@ I'll give some examples for OS X, but they should be pretty close for Ubuntu
 as well.
 
 I have a 
-[public image up on Docker Hub](https://hub.docker.com/repository/docker/mikerowehl/ktool)
+[public image up on Docker Hub](https://hub.docker.com/r/mikerowehl/ktool)
 so all you should have to do is grab 
 [the ktool script from this repo](https://github.com/mikerowehl/ktool/blob/master/ktool),
 make it
