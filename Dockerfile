@@ -10,7 +10,7 @@ ENV PATH $PREFIX/bin:$PATH
 RUN DEBIAN_FRONTEND="noninteractive" apt-get update; \
   DEBIAN_FRONTEND="noninteractive" apt-get upgrade -y; \
   DEBIAN_FRONTEND="noninteractive" apt-get install -y curl build-essential \
-    bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo
+    bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo grub2 xorriso
 
 RUN mkdir -p $HOME/src; \
   cd $HOME/src; \
